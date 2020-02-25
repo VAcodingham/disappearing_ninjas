@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>disappearing ninja</title>
+</head>
+<body>
+    <div>
+        <img src="/Users/rowan/Desktop/coding_dojo_lessons/Coding_Dojo_Week_2/disappearing_ninja/images.png" alt="ninja" style="width: 150px; height: 150px; margin: 25px;">
+        <img src="/Users/rowan/Desktop/coding_dojo_lessons/Coding_Dojo_Week_2/disappearing_ninja/images.png" alt="ninja" style="width: 150px; height: 150px; margin: 25px;">
+        <img src="/Users/rowan/Desktop/coding_dojo_lessons/Coding_Dojo_Week_2/disappearing_ninja/images.png" alt="ninja" style="width: 150px; height: 150px; margin: 25px;">
+        <img src="/Users/rowan/Desktop/coding_dojo_lessons/Coding_Dojo_Week_2/disappearing_ninja/images.png" alt="ninja" style="width: 150px; height: 150px; margin: 25px;">
+        <img src="/Users/rowan/Desktop/coding_dojo_lessons/Coding_Dojo_Week_2/disappearing_ninja/images.png" alt="ninja" style="width: 150px; height: 150px; margin: 25px;">
+        <img src="/Users/rowan/Desktop/coding_dojo_lessons/Coding_Dojo_Week_2/disappearing_ninja/images.png" alt="ninja" style="width: 150px; height: 150px; margin: 25px;">
+    </div>
+    
+    <div style="margin-left: 100px; margin-top: 100px;">     
+        <button class="Reset btn btn-dark">Restore</button>
+    </div>
+
+
+<script>
+    $("img").click(function(){
+        $(this).hide();
+    });
+    $(".Reset").click(function(){
+        $("img").show();
+    });
+</script>        
+</body>
+</html>
